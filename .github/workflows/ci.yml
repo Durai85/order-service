@@ -10,4 +10,4 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Build Order Service Docker Image
-        run: docker build -t order-service ./order-service
+        run: docker build -t order-service .
